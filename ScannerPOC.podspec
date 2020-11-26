@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '13.0'
 s.name = "ScannerPOC"
 s.summary = "ScannerPOC tests card scanning on iOS."
 s.requires_arc = true
@@ -25,7 +25,7 @@ s.source = { :git => "git@github.com:ceriksson/scannerPOC.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'CardScanner'
+s.dependency 'CardScan'
 
 # 8
 s.source_files = "ScannerPOC/**/*.{swift}"
@@ -34,6 +34,6 @@ s.source_files = "ScannerPOC/**/*.{swift}"
 s.resources = "ScannerPOC/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5.3"
 
 end

@@ -1,7 +1,7 @@
 import UIKit
 import CardScan
 
-class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
+class POCViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

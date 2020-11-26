@@ -10,7 +10,7 @@
 		0C94A2AEE9E40A3C7CE3EC1B /* libPods-ScannerPOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CD5449572E9F58574A0BD9 /* libPods-ScannerPOC.a */; };
 		1DC2B54F256F26020002E7C6 /* ScannerPOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC2B54D256F26020002E7C6 /* ScannerPOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC2B567256F2B510002E7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC2B561256F2B510002E7C6 /* Main.storyboard */; };
-		1DC2B568256F2B510002E7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2B564256F2B510002E7C6 /* ViewController.swift */; };
+		1DC2B568256F2B510002E7C6 /* POCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2B564256F2B510002E7C6 /* POCViewController.swift */; };
 		1DC2B569256F2B510002E7C6 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2B565256F2B510002E7C6 /* PresentationController.swift */; };
 		1DC2B56A256F2B510002E7C6 /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2B566256F2B510002E7C6 /* OverlayViewController.swift */; };
 /* End PBXBuildFile section */
@@ -20,7 +20,7 @@
 		1DC2B54D256F26020002E7C6 /* ScannerPOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScannerPOC.h; sourceTree = "<group>"; };
 		1DC2B54E256F26020002E7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC2B562256F2B510002E7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1DC2B564256F2B510002E7C6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DC2B564256F2B510002E7C6 /* POCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POCViewController.swift; sourceTree = "<group>"; };
 		1DC2B565256F2B510002E7C6 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		1DC2B566256F2B510002E7C6 /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
 		326E38EC9BA2A80A44548BE4 /* Pods-ScannerPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerPOC.release.xcconfig"; path = "Target Support Files/Pods-ScannerPOC/Pods-ScannerPOC.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		1DC2B563256F2B510002E7C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1DC2B564256F2B510002E7C6 /* ViewController.swift */,
+				1DC2B564256F2B510002E7C6 /* POCViewController.swift */,
 				1DC2B565256F2B510002E7C6 /* PresentationController.swift */,
 				1DC2B566256F2B510002E7C6 /* OverlayViewController.swift */,
 			);
@@ -228,7 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC2B56A256F2B510002E7C6 /* OverlayViewController.swift in Sources */,
-				1DC2B568256F2B510002E7C6 /* ViewController.swift in Sources */,
+				1DC2B568256F2B510002E7C6 /* POCViewController.swift in Sources */,
 				1DC2B569256F2B510002E7C6 /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -357,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
