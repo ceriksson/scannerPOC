@@ -1,0 +1,6 @@
+module Pods_ScannerPOC {
+  umbrella header "Pods-ScannerPOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
